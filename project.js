@@ -321,7 +321,7 @@ $(document).ready(function () {
     $("#inner1").slideUp(1000);
   })
 
-  v
+  
   function validateForm() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
