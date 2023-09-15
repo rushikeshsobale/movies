@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="page1.css"> <!-- Bootstrap CSS -->
+      
+      
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+          crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <link rel="icon" type="image/x-icon" href="mimage\favicon-96x96.png" />
+          <title>Infilmation</title>
+      
+    <style>
+
+        /* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color:aliceblue
+}
+
+
+
+
+
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.movie h2 {
+    margin-top: 10px;
+}
+
+.movie p {
+    margin-top: 5px;
+}
+
+.movie a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.movie a:hover {
+    background-color: #555;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12  justify-content-center align-items-center p-2">
+                    <h1>INFILMATION</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <nav class="nav">
+        <div id="bar" class="dropdown-toggle" data-dropdown="dropbar">
+          <i class="fa-solid fa-bars" id="bo"></i>
+          <ul class="dropbar dropdown-menu">
+            <li><a class="drop" href="http://127.0.0.1:5500/index.html">HOME</a></li>
+            <li>  <a id="l1" class="drop" href="#">GENRE</a>
+              <ul id="inner1" >
+                <li><a class="drop" href="http://127.0.0.1:5500/action.html">ACTION</a></li>
+                <li><a class="drop" href="http://127.0.0.1:5500/Comedy.html">COMEDY</a></li>
+                <li><a class="drop" href="http://127.0.0.1:5500/horror.html">HORROR</a></li>
+                <li><a class="drop" href="http://127.0.0.1:5500/documentry.html">DOCUMENTRY</a></li>
+              
+              </ul>
+            </li>
+            <li><a  id="l2" class="drop" href="#">MORE</a>
+              <ul id="inner2">
+                <li><a class="drop" href="#">MOVIES</a></li>
+                <li><a class="drop" href="#">WEB SERIES</a></li>
+                
+              </ul>
+            </li>
+            <li><a class="drop" href="http://127.0.0.1:5500/about.html">ABOUT</a></li>
+          </ul>
+        </div>
+        <ul class="navul">
+          <li>
+            <a href="http://127.0.0.1:5500/index.html" target="_self">HOME</a>
+          </li>
+          <li>
+            <a id="bc" class="dropdown-toggle" data-dropdown="dropcon" href="#" >GENRE</a>
+            <ul class="dropcon dropdown-menu">
+              <li><a class="drop" href="http://127.0.0.1:5500/action.html">ACTION</a></li>
+              <li><a class="drop" href="http://127.0.0.1:5500/Comedy.html">COMEDY</a></li>
+              <li><a class="drop" href="http://127.0.0.1:5500/horror.html">HORROR</a></li>
+              <li><a class="drop" href="http://127.0.0.1:5500/documentry.html">DOCUMENTRY</a></li>
+            
+            </ul>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:5500/about.html">ABOUT</a>
+          </li>
+          <li>
+            <a id="more" class="dropdown-toggle" data-dropdown="dropmore" href="#home">MORE</a>
+            <ul class="dropmore dropdown-menu">
+              <li><a class="drop" href="http://127.0.0.1:5500/movies.html#home">MOVIES</a></li>
+              <li><a class="drop" href="#">WEB SERIES</a></li>
+
+            </ul>
+          </li>
+        </ul>
+        <div id="acc">
+          <a href="http://127.0.0.1:5500/acoount.html#" target="_self" class="fa-solid fa-user btn"></a>
+        </div>
+      </nav>
+
+      <h2 class="text-center text-white mt-3">Welcome to Our Movie Collection</h2>
+    <main class="container">
+        
+        
+      <section class="movie mt-5">
+        <img src="https://pbs.twimg.com/media/B10tIDCIIAAexcO?format=png&name=large" alt="Movie 1">
+        <h2>interstellar</h2>
+        <p>Interstellar is a 2014 epic science fiction film co-written, directed, and produced by Christopher Nolan. It stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, Matt Damon, and Michael Caine. Set in a dystopian future where humanity is embroiled in a catastrophic blight and famine, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for humankind.</p>
+        <a href="https://en.wikipedia.org/wiki/Interstellar_(film)">Read More</a>
+    </section>
+    <section class="movie mt-3">
+      <img src="https://i.ytimg.com/vi/Um52DXJhmxI/maxresdefault.jpg" alt="Movie 3">
+      <h2>City of Dreams</h2>
+      <p>Explore the dazzling streets of New York City through the eyes of aspiring artists and dreamers.</p>
+      <a href="https://videolibrarian.com/reviews/film/nyc-dreams/">Read More</a>
+  </section>
+        
+        <section class="movie mt-3">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Discovery_One_from_trailer_of_2001_A_Space_Odyssey_%281968%29.png" alt="Movie 4">
+            <h2>Space Odyssey</h2>
+            <p>Embark on an interstellar adventure as a brave crew journeys through the cosmos in search of a new home.2001: A Space Odyssey is a 1968 epic science fiction film produced and directed by Stanley Kubrick. The screenplay was written by Kubrick and science fiction author Arthur C. Clarke, and was inspired by Clarke's 1951 short story "The Sentinel" and other short stories by Clarke. Clarke also published a novelisation of the film, in part written concurrently with the screenplay, after the film's release. The film stars Keir Dullea, Gary Lockwood, William Sylvester, and Douglas Rain, and follows a voyage by astronauts, scientists and the sentient supercomputer HAL to Jupiter to investigate an alien monolith.</p>
+            <a href="https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey">Read More</a>
+        </section>
+
+        
+        <section class="movie mt-3 ">
+            <img src="https://hypergeeky.files.wordpress.com/2012/11/mia-wasikowska-in-alice-in-wonderland-2010.jpg?w=1400" alt="Movie 2">
+            <h2>Lost in Wonderland</h2>
+            <p>A magical journey awaits as Alice gets lost in a whimsical world filled with peculiar characters.</p>
+            <a href="https://www.imdb.com/title/tt1783338/">Read More</a>
+        </section>
+       
+        
+    </main>
+
+    <header>
+        <h1 class="text-center text-white">Movies</h1>
+    </header>
+
+    <main class="container">
+        <table class="table table-striped text-white table-dark">
+            <thead>
+                <tr>
+                    <th>Movie Name</th>
+                    <th>Release Year</th>
+                    <th>Production House</th>
+                    
+                </tr>
+            </thead>
+            <tbody id="movie-table-body">
+                <!-- Movie data rows will be added dynamically using JavaScript -->
+            </tbody>
+        </table>
+
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center" id="pagination">
+                <!-- Pagination links will be added dynamically using JavaScript -->
+            </ul>
+        </nav>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Movie Collection</p>
+    </footer>
+</body>
+<script src="project.js"></script>
+</html>

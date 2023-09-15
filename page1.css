@@ -1,0 +1,465 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  color: aliceblue;
+  font-family: emoji;
+  font-size: 40px !important;
+  letter-spacing: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2,
+h3,
+h4 {
+  font-family: emoji;
+}
+
+.navul a {
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 2px;
+}
+
+a:hover {
+
+  opacity: 0.8;
+  border-bottom: 4px solid;
+  text-decoration: none !important;
+  color: aliceblue;
+}
+
+
+header {
+  opacity: 0.5;
+  height: 67px;
+}
+
+body {
+  background: rgb(6, 6, 6) !important;
+}
+
+i {
+  font-size: 30px !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+
+  width: 5% !important;
+  height: 51px;
+  margin-top: auto;
+  margin-bottom: auto;
+  opacity: 0.3 !important;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  /* or block, depending on your layout */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 85%;
+  /* Adjust to vertically center the text */
+  left: 50%;
+  /* Adjust to horizontally center the text */
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Background color with opacity */
+  padding: 10px;
+  color: white;
+  /* Text color */
+  font-size: 24px;
+  /* Font size */
+  font-family: Arial, sans-serif;
+  /* Font family */
+  text-align: center;
+}
+
+.nav {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  background: rgb(201 82 82);
+  margin: auto;
+  height: 52px;
+  display: flex;
+}
+
+#bar {
+  display: none;
+
+}
+
+img {
+
+  box-shadow: 5px 8px 12px 0 rgba(255, 255, 255, 0.875);
+
+}
+
+.navul {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  line-height: 50px;
+  margin-left: 12%;
+}
+
+.navul li a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 20px;
+
+  font-size: 20px;
+  padding: 0px 10px;
+  height: 45px;
+}
+
+.navul li {
+  margin: 0 1%;
+  display: flex;
+}
+
+#acc {
+
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 5%;
+  left: 75%;
+}
+
+.founder-profile p {
+  border: 0cm !important;
+}
+
+.login-container {
+  position: relative;
+  margin: auto;
+
+
+}
+
+.slide {
+  margin-top: 10px;
+}
+
+.dropcon,
+.dropmore {
+  display: none;
+  flex-direction: column;
+  background: rgb(163, 66, 66) impot !important;
+  list-style: none;
+  cursor: pointer;
+
+}
+
+.dropdown-menu {
+  position: inherit !important;
+  margin: 54px 0px 0px -154px !important;
+
+}
+
+.dropcon a,
+.dropmore a {
+  display: block;
+  width: 170px;
+  color: whitesmoke;
+}
+
+.dropdown-menu {
+  position: absolute;
+  /* Set the dropdown's position to absolute */
+  top: 100%;
+  /* Position the dropdown below the parent element */
+  left: 0;
+  /* Align the dropdown with the left edge of the parent */
+  display: none;
+  /* Hide the dropdown by default */
+  /* Add additional styling as needed */
+}
+
+.dropbar {
+  text-decoration: none;
+  display: none;
+  flex-direction: column;
+  background: mintcream;
+  list-style: none;
+  margin: 45px -289px 0 -19px !important;
+  padding: 9px 67px 6px 61px !important;
+  z-index: 1;
+}
+
+.dropbar a {
+  display: block;
+  width: 100px;
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+  padding: 10%;
+  z-index: 1;
+}
+
+.footer {
+  background-color: #333;
+  /* Background color for the footer */
+  color: #fff;
+  /* Text color for the footer */
+  padding: 20px 0;
+  /* Add some padding to the top and bottom of the footer */
+  z-index: -1;
+}
+
+/* Style for the footer content container */
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style for each section within the footer */
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/* Style for the heading in each section */
+.footer-section h3 {
+  color: #fff;
+  /* Heading text color */
+}
+
+/* Style for the list items in the Quick Links section */
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style for the bottom part of the footer */
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #222;
+}
+
+/* Style for the copyright text in the bottom part */
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#fill {
+  display: none;
+}
+
+
+
+.login-container {
+
+  background-color: #000000;
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  z-index: 1;
+}
+
+.login-container h2 {
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-form label {
+  font-weight: bold;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+
+}
+
+.signup-container {
+  background-color: #0a0a0a;
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+.signup-container h2 {
+  text-align: center;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signup-form label {
+  font-weight: bold;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="password"],
+.signup-form input[type="email"],
+.signup-form input[type="date"],
+.signup-form input[type="tel"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.signup-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  border: 1px solid rgb(81, 80, 80);
+  padding: 5px;
+  font-family: emoji;
+}
+
+#inner1,
+#inner2 {
+  display: none;
+  list-style: none;
+  width: 150%;
+}
+
+.footer{
+  margin-left:5px !important;
+}
+
+@media (max-width: 770px) {
+
+  /*  img {
+      width: 100%;
+      height: 200px !important;
+
+    }*/
+  body {
+    line-height: 1.1 !important;
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 15%;
+    /* Adjust to vertically center the text */
+    left: 50%;
+    /* Adjust to horizontally center the text */
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Background color with opacity */
+    padding: 10px;
+    color: white;
+    /* Text color */
+    font-size: 10px;
+    /* Font size */
+    font-family: Arial, sans-serif;
+    /* Font family */
+    text-align: center;
+  }
+
+  .navul {
+    display: none;
+  }
+
+  #bar {
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  #acc {
+    left: 80%;
+    font-size: 20px;
+  }
+
+  h1 {
+    letter-spacing: 1px;
+    font-size: 20px;
+
+  }
+
+  .h2,
+  h2 {
+    font-size: 20px !important;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    width: 96% !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .table {
+    font-size: 11px;
+    width: 85%;
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+
+}

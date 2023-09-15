@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="page1.css"> <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="mimage\favicon-96x96.png" />
+    <title>Infilmation</title>
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12  justify-content-center align-items-center p-2">
+          <h1>INFILMATION</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid sticky-top mt-20">
+    <nav class="nav">
+      <div id="bar" class="dropdown-toggle" data-dropdown="dropbar">
+        <i class="fa-solid fa-bars" id="bo"></i>
+        <ul class="dropbar dropdown-menu">
+          <li><a class="drop" href="http://127.0.0.1:5500/index.html">HOME</a></li>
+          <li>  <a id="l1" class="drop" href="#" >GENRE</a>
+            <ul id="inner1" >
+              <li><a class="drop" href="http://127.0.0.1:5500/action.html">ACTION</a></li>
+              <li><a class="drop" href="http://127.0.0.1:5500/Comedy.html">COMEDY</a></li>
+              <li><a class="drop" href="http://127.0.0.1:5500/horror.html">HORROR</a></li>
+              <li><a class="drop" href="http://127.0.0.1:5500/documentry.html">DOCUMENTRY</a></li>
+            
+            </ul>
+          </li>
+          <li><a  id="l2" class="drop" href="#">MORE</a>
+            <ul id="inner2">
+              <li><a class="drop" href="#">MOVIES</a></li>
+              <li><a class="drop" href="#">WEB SERIES</a></li>
+              
+            </ul>
+          </li>
+          <li><a class="drop" href="http://127.0.0.1:5500/about.html">ABOUT</a></li>
+        </ul>
+      </div>
+      <ul class="navul">
+        <li>
+          <a href="http://127.0.0.1:5500/index.html" target="_self">HOME</a>
+        </li>
+        <li>
+          <a id="bc" class="dropdown-toggle" data-dropdown="dropcon" href="#" >GENRE</a>
+          <ul class="dropcon dropdown-menu">
+            <li><a class="drop" href="http://127.0.0.1:5500/action.html">ACTION</a></li>
+            <li><a class="drop" href="http://127.0.0.1:5500/Comedy.html">COMEDY</a></li>
+            <li><a class="drop" href="http://127.0.0.1:5500/horror.html">HORROR</a></li>
+            <li><a class="drop" href="http://127.0.0.1:5500/documentry.html">DOCUMENTRY</a></li>
+          
+          </ul>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/about.html">ABOUT</a>
+        </li>
+        <li>
+          <a id="more" class="dropdown-toggle" data-dropdown="dropmore" href="#home">MORE</a>
+          <ul class="dropmore dropdown-menu">
+            <li><a class="drop" href="http://127.0.0.1:5500/movies.html#home">MOVIES</a></li>
+            <li><a class="drop" href="#">WEB SERIES</a></li>
+
+          </ul>
+        </li>
+      </ul>
+      <div id="acc">
+        <a href="http://127.0.0.1:5500/acoount.html#" target="_self" class="fa-solid fa-user btn"></a>
+      </div>
+    </nav>
+  </div>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form class="login-form" action="#" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit" >Login</button>
+        <a class="bg-danger text-center text-white rounded"  href="http://127.0.0.1:5500/sign.html" style="height: 40px; line-height: 40px; text-decoration: none;"> Sign Up</a>
+    </form>
+</div>
+  
+
+    <div class="footer">
+      <div class=" container footer-content">
+        <div class="row">
+          <div class="footer-section col-12 col-md-4 col-lg-4">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget justo vel libero viverra cursus.</p>
+          </div>
+          <div class="footer-section col-12 col-md-4 col-lg-4">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section col-12 col-md-4 col-lg-4">
+            <h3>Contact Us</h3>
+            <p>Email: contact@example.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2023 Your Company Name | All Rights Reserved
+      </div>
+    </div>
+</body>
+<script src="project.js"></script>
+</html>
