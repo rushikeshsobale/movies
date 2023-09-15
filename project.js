@@ -240,9 +240,9 @@ $(document).ready(function () {
       productionHouse: "History Revisited Films",
       description: "Trace the echoes of history through the untold stories of those who shaped the world we know today."
     }
-    // Add more movie objects here
+
   ];
-  // Accessing individual entries in the array table
+
 
 
 
@@ -331,7 +331,7 @@ $(document).ready(function () {
 
 
     if (name === "") {
-      alert("Please enter your name.");       
+      alert("Please enter your name.");
       return false;
     }
 
@@ -361,12 +361,12 @@ $(document).ready(function () {
     const passwordRegex = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
     return passwordRegex.test(password)
   }
-  
+
   // Example usage:
 
- // const validationResult = validatePassword(password);
+  // const validationResult = validatePassword(password);
   //console.log(validationResult); // Output: "Password is valid."
-  
+
 
 
 
