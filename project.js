@@ -310,15 +310,15 @@ $(document).ready(function () {
   }
 
   $("#l1").click(function () {
-    $("#inner1").slideToggle(1000);
+    $("#inner1").slideToggle(500);
 
-    $("#inner2").slideUp(1000);
+    $("#inner2").slideUp(500);
 
   });
 
   $("#l2").click(function () {
-    $("#inner2").slideToggle(1000);
-    $("#inner1").slideUp(1000);
+    $("#inner2").slideToggle(500);
+    $("#inner1").slideUp(500);
   })
 
   
