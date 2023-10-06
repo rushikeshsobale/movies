@@ -19,21 +19,22 @@ h4 {
 }
 
 .navul a {
-  color: aliceblue;
+  color: rgb(30, 31, 32);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   letter-spacing: 2px;
 }
 
 a:hover {
-
+  
   opacity: 0.8;
   border-bottom: 4px solid;
   text-decoration: none !important;
   color: aliceblue;
 }
+           
 
 
-header {
+header { 
   opacity: 0.5;
   height: 67px;
 }
@@ -83,14 +84,15 @@ i {
 
 .nav {
   position: sticky;
-  top: 0px;
+  top: 110px;
   z-index: 1;
   width: 100%;
   background: rgb(201 82 82);
   margin: auto;
   height: 52px;
   display: flex;
-}
+  opacity:0.9;
+} 
 
 #bar {
   display: none;
@@ -113,11 +115,11 @@ img {
 }
 
 .navul li a {
-  color: black;
+  color: rgb(35, 31, 31);
   text-decoration: none;
   display: inline-block;
   margin: 0px 20px;
-
+  font-weight: 560;
   font-size: 20px;
   padding: 0px 10px;
   height: 45px;
@@ -155,9 +157,10 @@ img {
 .dropmore {
   display: none;
   flex-direction: column;
-  background: rgb(163, 66, 66) impot !important;
+  background: rgb(79, 70, 70) !important;
   list-style: none;
   cursor: pointer;
+  opacity:0.9;
 
 }
 
@@ -171,7 +174,8 @@ img {
 .dropmore a {
   display: block;
   width: 170px;
-  color: whitesmoke;
+  color: rgb(232, 54, 54) !important;
+  font-weight: 800;
 }
 
 .dropdown-menu {
@@ -190,20 +194,23 @@ img {
   text-decoration: none;
   display: none;
   flex-direction: column;
-  background: mintcream;
+  background: rgb(11, 24, 16) !important;
   list-style: none;
   margin: 45px -289px 0 -19px !important;
   padding: 9px 67px 6px 61px !important;
   z-index: 1;
+  opacity:0.9;
 }
 
 .dropbar a {
   display: block;
   width: 100px;
-  color: rgb(0, 0, 0);
+  color: rgb(213, 8, 8);
   margin-left: 20px;
   padding: 10%;
   z-index: 1;
+  font-weight: 1000;
+  font-size: 20px;
 }
 
 .footer {
