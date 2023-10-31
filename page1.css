@@ -3,6 +3,8 @@
   padding: 0px;
 }
 
+
+
 h1 {
   color: aliceblue;
   font-family: emoji;
@@ -11,7 +13,9 @@ h1 {
   text-align: center;
   text-decoration: underline;
 }
-
+.container-fluid{
+  margin: auto !important;
+}
 h2,
 h3,
 h4 {
@@ -83,8 +87,6 @@ i {
 }
 
 .nav {
-  position: sticky;
-  top: 110px;
   z-index: 1;
   width: 100%;
   background: rgb(201 82 82);
@@ -396,11 +398,12 @@ p {
   body {
     line-height: 1.1 !important;
   }
-
+  
+  .stick{
+    top: 10px !important;
+  }
 
   .text-overlay {
-    position: absolute;
-    top: 15%;
     /* Adjust to vertically center the text */
     left: 50%;
     /* Adjust to horizontally center the text */
