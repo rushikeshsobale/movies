@@ -1,0 +1,7 @@
+version: 0.0
+os: linux
+files:
+  - source: /  # Assuming your JavaScript files are in the root of your project
+    destination: /var/www/html  # Adjust this path based on your server setup
+
+
